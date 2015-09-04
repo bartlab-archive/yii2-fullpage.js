@@ -1,0 +1,23 @@
+{
+    "name": "maybeworks/yii2-fullpage.js",
+    "description": "Font awesome assets for Yii PHP framework 2.0",
+    "keywords": ["yii", "extension", "fullpage.js", "assets"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "B@RT",
+            "email": "bart@maybeworks.com",
+            "homepage": "http://maybe.works"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/fullpage.js":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "maybeworks\\fullpagejs\\": ""
+        }
+    }
+}
