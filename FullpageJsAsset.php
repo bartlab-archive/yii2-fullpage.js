@@ -9,11 +9,11 @@ class FullpageJsAsset extends AssetBundle
     public $sourcePath = '@bower/fullpage.js';
 
     public $css = [
-        'jquery.fullPage.css',
+        'dist/fullpage.min.css',
     ];
 
     public $js = [
-        'jquery.fullPage.min.js',
+        'dist/fullpage.min.js',
     ];
 
     public $depends = [
